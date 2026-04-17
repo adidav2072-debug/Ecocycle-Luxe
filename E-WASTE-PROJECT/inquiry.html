@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry - EcoCycle Luxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EcoCycle <span class="brand luxe">Luxe</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">The Collection</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="inquiry.html">Inquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center; color: #2d5a27; margin-bottom: 40px;">Get In Touch</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="piece">Interested in which piece?</label>
+            <select id="piece" name="piece">
+                <option>Circuit Board Sculpture</option>
+                <option>Copper Pulse</option>
+                <option>Custom Commission</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us more about your interest..."></textarea>
+            
+            <button type="submit" class="btn" style="width: 100%; font-size: 1.2em;">Send Inquiry</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 EcoCycle Luxe Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
