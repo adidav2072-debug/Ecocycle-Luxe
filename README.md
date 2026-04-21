@@ -22,3 +22,6 @@ Ecocycle-Luxe is a professional digital portfolio showcasing high-end sculpture-
  * **Vyas, A.** (2019). *Multicolored neon lighted decor*. [Online]. Available at: <https://unsplash.com/photos/multicolored-neon-lighted-decor-PP5SpzVKStg> [Accessed 19 April 2026]
  * **Yang, F.** (2026). *A chrome sculpture of a kneeling figure with wires*. [Online]. Available at:<https://unsplash.com/photos/a-chrome-sculpture-of-a-kneeling-figure-with-wires-zwTI6-86p6E> [Accessed 19 April 2026]
  * **Zion, I.M.** (2025). *Three young men wearing black shirts looking down*. [Online]. Available at: <https://unsplash.com/photos/three-young-men-wearing-black-shirts-looking-down-VCCUbGNE6Sw> [Accessed 19 April 2026]
+* **Davhana, A.** (2026). *EcoCycle Luxe Original Logo.* [Graphic Design].Created on 20 April 2026.
+
+
