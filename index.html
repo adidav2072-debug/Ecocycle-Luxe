@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- brand name -->
     <title>EcoCycle Luxe The Digital Gallery</title>
 </head>
 <body>
-<header>
-    <!-- logo container -->
-    <div>
-        <br>
-        <img src="images/logo.png" alt="EcoCycle Luxe Logo" width="145">
+    <header class="top-navbar">
+    <div class="logo-container">
+        <img src="images/logo.png" alt="EcoCycle Luxe Logo" class="nav-logo-img">
+        <p class="tagline">Reinventing E-Waste into Modern Décor</p>
     </div>
-    <!-- heading -->
-        <h1>EcoCycle Luxe</h1>
-        <p class="sub-slogan"><i>Reinventing E-Waste into Modern Décor</i></p>
         <!-- navigation -->
         <nav>
             <ul>
@@ -26,59 +23,60 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
+ </header>
 <!-- hr tag to separate content -->
     <hr>
     <!-- main section -->
     <main>
         <!-- organisation overview -->
-        <section class="overview card">
+         <main>
+    <div class="hero-split-container">
+        
+        <section class="hero-text-side">
             <h2>Organisation Overview</h2>
-            <p>EcoCycle Luxe is a creative studio started in 2022. We started this art gallery because we saw a challenge,seeing old technology end up in a bin and being littered in our environment,and instead of throwing away old circuit boards, wires, and metal parts, we reinvent them into modern décor and gallery-style sculptures.</p>
-            <p>Our mission is to prove that "waste" can be beautiful and valuable. We want to reach art collectors and stylish office owners who want unique pieces that also help save the planet.</p>
+            <p>EcoCycle Luxe is a creative studio started in 2022 because we hate seeing old technology end up in a bin. Instead of throwing away old circuit boards, wires, and metal parts, we reinvent them into modern décor and gallery-style sculptures.</p>
+            <p>Our mission is to prove that "waste" can be beautiful and valuable. We want to reach art collectors and stylish office owners in South Africa who want unique pieces that help save the planet.</p>
         </section>
 
-        <hr>
-            <!-- featured artworks -->
-        <section class="gallery-grid">
-            <h2>Featured Artworks</h2>
-            <!-- div container for each image -->
-            <div>
-                <img src="images/image1.jpg" alt="E-waste Sculpture 1" width="582">
-                <br>
-                <b>The Synthetic Soul</b>
-            </div>
-            <br><br>
-            
-            <div>
-                <img src="images/image2.jpg" alt="E-waste Sculpture 2" width="437">
-                <br>
-                <b>Electric Afterlife</b>
-            </div>
-            <br><br>
-            
-            <div>
-                <img src="images/image3.jpg" alt="E-waste Sculpture 3" width="519">
-                <br>
-                <b>Circuit Fragment</b>
-            </div>
-            <br><br>
+        <section class="hero-image-side">
+            <div class="gallery-stack-grid">
+                
+                <div class="template-art-frame">
+                    <img src="images/image1.jpg" alt="Art 1">
+                    <div class="frame-caption">The Synthetic Soul</div>
+                </div>
 
-            <div>
-                <img src="images/image4.jpg" alt="E-waste Sculpture 4" width="463">
-                <br>
-                <b>The Iron Glaze</b>
+                <div class="template-art-frame">
+                    <img src="images/image2.jpg" alt="Art 2">
+                    <div class="frame-caption">Electric Afterlife</div>
+                </div>
+
+                <div class="template-art-frame">
+                    <img src="images/image3.jpg" alt="Art 3">
+                    <div class="frame-caption">Circuit Fragment</div>
+                </div>
+
+                <div class="template-art-frame">
+                    <img src="images/image4.jpg" alt="Art 4">
+                    <div class="frame-caption">The Iron Glaze</div>
+                </div>
+
             </div>
-            <br>
         </section>
-    </main>
+
+    </div>
+</main>
     <hr>
     <!-- footer section -->
     <footer>
         <p>Contact us: <a href="mailto:info@ecocycleluxe.co.za">info@ecocycleluxe.co.za</p>
-        <p>Ecocycle-Luxe  2026  Polokwane, South Africa</p>
+        <p>Polokwane, South Africa</p>
         <p>&copy; 2026 EcoCycle Luxe. All Rights Reserved.</p>
-    <p>Adivhaho Davhana, 10531552, Rosebank College WEDE5020 POE</p>
+    <div class="footer-icons">
+            <a href="#" class="icon-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon-link"><i class="fa-brands fa-x-whatsapp"></i></a>
+            <a href="#" class="icon-link"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
     </footer>
 </body>
 </html>
