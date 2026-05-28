@@ -8,35 +8,54 @@ body {
     line-height: 1.7;
 }
 
+hr {
+    display: none;
+}
+
 .top-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 18px 40px;
     background-color: ivory;
     border-bottom: 1px solid lightgray;
 }
 
 .logo-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .nav-logo-img {
-    height: 40px;
+    height: 42px;
     width: auto;
     display: block;
     object-fit: contain;
+}
+
+.tagline {
+    margin: 0;
+    color: darkslategray;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 nav li {
-    display: inline-block;
+    display: block;
+}
+
+nav li + li {
     margin-left: 30px;
 }
 
@@ -48,10 +67,10 @@ nav li a {
     font-weight: 600;
     letter-spacing: 1.5px;
     padding-bottom: 5px;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
 }
 
-nav li a:hover, 
+nav li a:hover,
 nav li a.active {
     color: forestgreen;
     border-bottom: 2px solid forestgreen;
@@ -63,13 +82,13 @@ nav li a.active {
     align-items: flex-start;
     justify-content: space-between;
     max-width: 1200px;
-    margin: 60px auto;
-    gap: 50px;
+    margin: 56px auto;
+    gap: 48px;
     padding: 0 40px;
 }
 
 .hero-text-side {
-    flex: 1 1 400px;
+    flex: 1 1 420px;
 }
 
 .hero-text-side h2 {
@@ -77,18 +96,18 @@ nav li a.active {
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-bottom: 25px;
+    margin: 0 0 22px 0;
 }
 
 .hero-text-side p {
     color: darkslategray;
     font-size: 16px;
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin: 0 0 18px 0;
 }
 
 .hero-image-side {
-    flex: 1 1 550px;
+    flex: 1 1 520px;
 }
 
 .gallery-stack-grid {
@@ -103,6 +122,16 @@ nav li a.active {
     border: 1px solid lightgray;
     padding: 12px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.template-art-frame > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    background-color: ivory;
 }
 
 .image-wrapper {
@@ -130,10 +159,10 @@ nav li a.active {
 
 footer {
     text-align: center;
-    padding: 50px 20px;
+    padding: 56px 20px;
     background-color: darkslategray;
     color: ivory;
-    margin-top: 100px;
+    margin-top: 98px;
 }
 
 .footer-icons {
@@ -160,5 +189,15 @@ footer p {
     margin: 0;
     color: lightgray;
 }
+
+footer a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: forestgreen;
+}
+
 
 
