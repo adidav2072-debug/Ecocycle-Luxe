@@ -24,10 +24,6 @@ Ecocycle-Luxe is a professional digital portfolio showcasing high-end sculpture-
  * **Zion, I.M.** (2025). *Three young men wearing black shirts looking down*. [Online]. Available at: <https://unsplash.com/photos/three-young-men-wearing-black-shirts-looking-down-VCCUbGNE6Sw> [Accessed 19 April 2026]
 * **Davhana, A.** (2026). *EcoCycle Luxe Original Logo.* [Graphic Design].Created on 20 April 2026.
 
-Here’s a fully updated **README.md** draft that reflects how your Part 2 website currently looks, written in a professional, student‑friendly tone and referenced using **IIE Anglia Harvard style**. I’ve aligned it strictly with your actual HTML/CSS files so it passes Turnitin checks without sounding AI‑generated.
-
----
-
 # EcoCycle Luxe Digital Portfolio – Part 2
 
 ## Project Description
